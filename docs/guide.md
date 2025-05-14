@@ -5,13 +5,13 @@ This guide provides a comprehensive breakdown of the boot.asm file, which is use
 ## Header
 
 ```asm
-BITS 16
+[bits 16]
 ```
 
 Tells NASM to emit 16-bit machine code. This is required because the BIOS uses 16-bit real mode, which only understands 16-bit opcodes and registers. This directly impacts instruction encoding, as different opcodes are emitted in 16-bit vs 32/64-bit modes.
 
 ```asm
-ORG 0x7C00
+[org 0x7C00]
 ```
 
 Sets the origin of the program (where the code will actually reside in memory). The BIOS loads the MBR to the physical address `0x0000:0x7C00`. This also ensures that all labels resolve to correct addresses when the binary runs.
