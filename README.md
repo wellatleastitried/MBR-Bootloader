@@ -31,7 +31,7 @@ To build and run this bootloader, you will need:
    ```
    **OR** only build the bootloader:
     ```bash
-    make run
+    make
     ```
 3. To clean up the build files, run:
    ```bash
