@@ -10,7 +10,7 @@ This project serves as a foundational step into low-level and systems programmin
 - Initializing segment registers manually
 - Embedding null-terminated strings
 
-For a line-by-line breakdown of the code, see [here](docs/guide.md).
+For a line-by-line breakdown of the code, see [here](docs/README.md).
 
 ## Requirements
 
