@@ -1,6 +1,6 @@
 # MBR-Bootloader
 
-A minimalist x86 bootloader that prints a message from the Master Boot Record (MBR). This bootloader fits within 512 bytes and demonstrates how to initialize registers, print a string via BIOS interrupts, and safely halt the CPU. This was done as a learning experience, if you notice any issue with the x86, please open an issue!
+A minimalist x86 bootloader that prints a message from the Master Boot Record (MBR). This bootloader fits within 512 bytes and demonstrates how to initialize registers, print a string via BIOS interrupts, and safely halt the CPU. This was done as a learning experience, if you notice any error, please open an issue!
 
 ## Overview
 
